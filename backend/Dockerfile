@@ -1,5 +1,5 @@
 # Dockerfile cho Backend
-FROM node:14
+FROM node:16
 WORKDIR /app
 COPY package*.json yarn.lock ./
 RUN yarn install
